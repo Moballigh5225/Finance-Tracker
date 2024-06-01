@@ -8,6 +8,7 @@ import { FinancialRecordProvider } from './contexts/financial-record-context';
 const App: React.FC = () => {
   return (
     <Router>
+      <h2>hello</h2>
       <div className="app-container">
         <Routes>
           <Route

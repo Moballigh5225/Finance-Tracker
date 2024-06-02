@@ -227,6 +227,14 @@
     std-env "^3.7.0"
     swr "^2.2.0"
 
+"@clerk/themes@^2.1.8":
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/@clerk/themes/-/themes-2.1.8.tgz#45d6232d9180c487e597f4eb868a4274b2981ad2"
+  integrity sha512-fSKfhT2TKnvkJ71tNtu/CYZ1y9os7C5k87akIXrcm2oNu4W7wyWIjRdk4YGRm/kQ2ZsFvmUiQQdp4pz3jutWoA==
+  dependencies:
+    "@clerk/types" "4.5.1"
+    tslib "2.4.1"
+
 "@clerk/types@4.5.1":
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/@clerk/types/-/types-4.5.1.tgz#e1b8332be5cd6832aaec9d44eff70b319846fb01"
@@ -608,6 +616,13 @@
   integrity sha512-jGjmu/ZqS7FjSH6owMcD5qpq19+1RS9DeVRqfl1FeBMxTDQAGwlMWOcs52NDoXaNKyG3d1cYQFMs9rCrb88o9Q==
   dependencies:
     "@types/history" "^4.7.11"
+    "@types/react" "*"
+
+"@types/react-table@^7.7.20":
+  version "7.7.20"
+  resolved "https://registry.yarnpkg.com/@types/react-table/-/react-table-7.7.20.tgz#2f68e70ca7a703ad8011a8da55c38482f0eb4314"
+  integrity sha512-ahMp4pmjVlnExxNwxyaDrFgmKxSbPwU23sGQw2gJK4EhCvnvmib2s/O/+y1dfV57dXOwpr2plfyBol+vEHbi2w==
+  dependencies:
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^18.2.66":
@@ -1529,6 +1544,11 @@ react-router@6.23.1:
   integrity sha512-fzcOaRF69uvqbbM7OhvQyBTFDVrrGlsFdS3AL+1KfIBtGETibHzi3FkoTRyiDJnWNc2VxrfvR+657ROHjaNjqQ==
   dependencies:
     "@remix-run/router" "1.16.1"
+
+react-table@^7.8.0:
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/react-table/-/react-table-7.8.0.tgz#07858c01c1718c09f7f1aed7034fcfd7bda907d2"
+  integrity sha512-hNaz4ygkZO4bESeFfnfOft73iBUj8K5oKi1EcSHPAibEydfsX2MyU6Z8KCr3mv3C9Kqqh71U+DhZkFvibbnPbA==
 
 react@^18.2.0:
   version "18.3.1"
